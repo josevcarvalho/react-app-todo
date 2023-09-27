@@ -34,6 +34,6 @@ Stop the backend production server
 ```
 pm2 stop all
 ```
-##About project
+## About project
 
 Project carried out in the curse Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
