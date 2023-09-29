@@ -1,10 +1,10 @@
-# ToDoApp
+# react-app-todo
 ## Project introduce
 
 ```
-git clone https://github.com/josevcarvalho/ToDoApp.git  
+git clone https://github.com/josevcarvalho/react-app-todo.git  
 
-cd ToDoApp/backend
+cd react-app-todo/backend
 
 mongod
 ```
@@ -24,7 +24,7 @@ npm run production
 In another terminal
 
 ```
-cd ToDoApp/frontend
+cd react-app-todo/frontend
 
 npm run dev
 ```
