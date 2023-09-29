@@ -1,19 +1,25 @@
 import React from "react"
+import PageHeader from "../template/pageHeader"
+import Grid from "../template/grid"
+import IconButton from "../template/iconButton"
 
 export default _ => (
-    <div role="form" className="todoForm">
-        <div className="col-xs-12 col-sm-9 col-md-10">
-            <input 
-                id="description" 
-                className="form-control"
-                placeholder="Adicione uma tarefa" >
-            </input>
-        </div>
+    <div className="jumbotron">
+        <div className="container">
+            <PageHeader name="Tarefas" small="Cadastro" />
+            <div role="form" className="todoForm">
+                <Grid cols="12 9 10">
+                    <input 
+                        id="description" 
+                        className="form-control"
+                        placeholder="Adicione uma tarefa" >
+                    </input>
+                </Grid>
 
-        <div className="col-xs-12 col-sm-3 col-md-2">
-            <button className="btn btn-primary">
-                <i className="fa fa-plus"></i>
-            </button>
+                <Grid cols="12 3 2">
+                    <IconButton style="primary" icon="plus"/>
+                </Grid>
+            </div>
         </div>
     </div>
 )
