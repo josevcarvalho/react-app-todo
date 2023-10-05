@@ -7,7 +7,6 @@ export default props => (
             className={`btn btn-${props.style}`}
             onClick={props.onClick}
             disabled={props.disabled}
-            hide={props.hide}
         >
             <i className={`fa fa-${props.icon}`}></i>
         </button>
