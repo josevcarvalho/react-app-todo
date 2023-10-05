@@ -36,4 +36,4 @@ pm2 stop all
 ```
 ## About project
 
-Project carried out in the curse Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
+Project carried out in the curse [Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!](https://www.udemy.com/course/react-redux-pt/)
